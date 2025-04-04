@@ -116,8 +116,6 @@ fun MessageRow(messageModel: MessageModel) {
                         color = Color.White
                     )
                 }
-
-
             }
 
         }
@@ -163,7 +161,7 @@ fun AppHeader() {
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .background(MaterialTheme.colorScheme.primary)
+            .background(MaterialTheme.colorScheme.primary)   // no need of this color
     ) {
         Text(
             modifier = Modifier.padding(16.dp),
